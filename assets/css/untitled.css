@@ -1,0 +1,188 @@
+@media (min-width: 300px) {
+  .col-md-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+}
+
+@media (min-width: 300px) {
+  .fa-stack, fa-4x {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 279px;
+  }
+}
+
+@media (min-width: 300px) {
+  .col-sm-6 h4 {
+    width: 32.0625px;
+    font-size: 13px;
+  }
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  background-color: #333;
+}
+
+@media (min-width: 992px) {
+  .portfolio-caption h4 {
+    font-size: 30px;
+  }
+}
+
+.bg-light {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+
+@media (min-width: 300px) {
+  .col-md-4 p {
+    font-size: 9px;
+  }
+}
+
+@media (min-width: 500px) {
+  .col-md-4 p {
+    font-size: 19px;
+  }
+}
+
+@media (min-width: 300px) {
+  .col-md-4 h4 {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 500px) {
+  .col-md-4 h4 {
+    font-size: 26px;
+  }
+}
+
+.blurred-background {
+  position: relative;
+  padding-top: 50px;
+  overflow: hidden;
+}
+
+.blurred-background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("../../assets/img/DSC_7421.jpg") center / cover no-repeat;
+  filter: blur(4px);
+  z-index: -1;
+}
+
+.blurred-background::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5));
+  z-index: -1;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  /*flex-wrap: wrap;*/
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+@media (min-width: 300px) {
+  .carousel {
+    margin: 20px;
+    padding: 0px;
+    position: relative;
+  }
+}
+
+@media (min-width: 992px) {
+  .carousel {
+    margin: 0px;
+    padding: 34px;
+    position: relative;
+    width: 613.6px;
+  }
+}
+
+@media (min-width: 300px) {
+  h2, .h2 {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 992px) {
+  h2, .h2 {
+    font-size: 29px;
+  }
+}
+
+@media (min-width: 300px) {
+  section h2.section-heading, section .section-heading.h2 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  section h2.section-heading, section .section-heading.h2 {
+    font-size: 29px;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+}
+
+.blur-load {
+  background: url("../../assets/img/small-DSC_2768-(2).jpg") center / cover no-repeat;
+}
+
+@media (min-width: 992px) {
+  .portfolio-size {
+    height: 370px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .portfolio-size {
+    height: 445px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .portfolio-size {
+    height: 500px;
+  }
+}
+
+.blur-load.loaded > img {
+  opacity: 1;
+}
+
+.blur-load > img {
+  opacity: 0;
+  transition: opacity 200ms ease-in-out;
+}
+
+@media (min-width: 300px) {
+  .team-member img {
+    width: 150px;
+    height: 150px;
+    border: 7px solid #fff;
+  }
+}
+
